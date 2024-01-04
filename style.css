@@ -1,0 +1,26 @@
+body {
+    font-family: poppins;
+}
+#container {
+    min-height: 800px;
+    position: relative;
+}
+#clock {
+    text-align: center;
+    font-size: 70px;
+    border: 3px solid #eee;
+    color: #333;
+    box-shadow: #eee 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: .5s;
+    min-width: 400px;
+    padding: 100px 20px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#clock:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+}
